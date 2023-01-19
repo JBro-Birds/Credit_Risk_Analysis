@@ -11,10 +11,12 @@ Jill has requested I perform a deep dive into the resampling aspect of machine l
 ## Results
 
 *  Naive Random Oversampling
+
 ![NR_BalancedAccuracyScore](https://raw.githubusercontent.com/JBro-Birds/Credit_Risk_Analysis/master/support_readme_images/NR_BalancedAccuracyScore.png)
 ![NR_ImbalancedClassReport](https://raw.githubusercontent.com/JBro-Birds/Credit_Risk_Analysis/master/support_readme_images/NR_ImbalancedClassReport.png)
 
 *  SMOTE Oversampling
+
 ![Smote_BalancedAccuracyScore](https://raw.githubusercontent.com/JBro-Birds/Credit_Risk_Analysis/master/support_readme_images/Smote_BalancedAccuracyScore.png)
 ![Smote_ImbalancedClassReport](https://raw.githubusercontent.com/JBro-Birds/Credit_Risk_Analysis/master/support_readme_images/Smote_ImbalancedClassReport.png)
 
