@@ -11,7 +11,8 @@ Jill has requested I perform a deep dive into the resampling aspect of machine l
 ## Results
 
 *  Naive Random Oversampling
-![p_value_r_squared](https://raw.githubusercontent.com/JBro-Birds/MechaCar_Statistical_Analysis/master/support_images_read.me/p_value_r_squared.png)
+![NR_BalancedAccuracyScore](https://raw.githubusercontent.com/JBro-Birds/Credit_Rist_Analysis/master/support_readme_images/NR_BalancedAccuracyScore.png)
+![NR_ImbalancedClassReport](https://raw.githubusercontent.com/JBro-Birds/Credit_Rist_Analysis/master/support_readme_images/NR_ImbalancedClassReport.png)
 *  SMOTE Oversampling
 *  Undersampling
 *  Combination (Over and Under) Sampling
