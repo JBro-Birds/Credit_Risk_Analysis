@@ -10,37 +10,37 @@ Jill has requested I perform a deep dive into the resampling aspect of machine l
 
 ## Results
 
-*  Naive Random Oversampling:  accuracy score is 65.7%; precision score is a dismal 1% for high-risk but an outstanding rate of 100% for low-risk; recall (sensitivity) score is 71% for high-risk and 60% for low-risk.
+*  Naive Random Oversampling:  accuracy score is 65.7%; precision score is a dismal 1% for high-risk but an outstanding rate of 100% for low-risk; recall score is 71% for high-risk and 60% for low-risk.
 
 ![NR_BalancedAccuracyScore](https://raw.githubusercontent.com/JBro-Birds/Credit_Risk_Analysis/master/support_readme_images/NR_BalancedAccuracyScore.png)
 ![NR_ImbalancedClassReport](https://raw.githubusercontent.com/JBro-Birds/Credit_Risk_Analysis/master/support_readme_images/NR_ImbalancedClassReport.png)
 
-*  SMOTE Oversampling:  accuracy score is 66.2%; precision score is a dismal 1% for high-risk but an outstanding rate of 100% for low-risk; recall (sensitivity) score is 63% for high-risk and 69% for low-risk.
+*  SMOTE Oversampling:  accuracy score is 66.2%; precision score is a dismal 1% for high-risk but an outstanding rate of 100% for low-risk; recall score is 63% for high-risk and 69% for low-risk.
 
 ![Smote_BalancedAccuracyScore](https://raw.githubusercontent.com/JBro-Birds/Credit_Risk_Analysis/master/support_readme_images/Smote_BalancedAccuracyScore.png)
 ![Smote_ImbalancedClassReport](https://raw.githubusercontent.com/JBro-Birds/Credit_Risk_Analysis/master/support_readme_images/Smote_ImbalancedClassReport.png)
 
-*  Undersampling:  accuracy score on lower side at 54.4%; precision score is a dismal 1% for high-risk but an outstanding rate of 100% for low-risk; recall (sensitivity) score is 69% for high-risk and 40% for low-risk.
+*  Undersampling:  accuracy score on lower side at 54.4%; precision score is a dismal 1% for high-risk but an outstanding rate of 100% for low-risk; recall score is 69% for high-risk and 40% for low-risk.
 
 ![Undersampling_BalancedAccuracyScore](https://raw.githubusercontent.com/JBro-Birds/Credit_Risk_Analysis/master/support_readme_images/Undersampling_BalancedAccuracyScore.png)
 ![Undersampling_ImbalancedClassReport](https://raw.githubusercontent.com/JBro-Birds/Credit_Risk_Analysis/master/support_readme_images/Undersampling_ImbalancedClassReport.png)
 
-*  Combination (Over and Under) Sampling:  accuracy score is 68.8%; precision score is a dismal 1% for high-risk but an outstanding rate of 100% for low-risk; recall (sensitivity) score is 80% for high-risk and 57% for low-risk.
+*  Combination (Over and Under) Sampling:  accuracy score is 68.8%; precision score is a dismal 1% for high-risk but an outstanding rate of 100% for low-risk; recall score is 80% for high-risk and 57% for low-risk.
 
 ![Combo_BalancedAccuracyScore](https://raw.githubusercontent.com/JBro-Birds/Credit_Risk_Analysis/master/support_readme_images/Combo_BalancedAccuracyScore.png)
 ![Combo_ImbalancedClassReport](https://raw.githubusercontent.com/JBro-Birds/Credit_Risk_Analysis/master/support_readme_images/Combo_ImbalancedClassReport.png)
 
-*  Balanced Random Forest Classifier:  accuracy score is 78.9%; precision score is a dismal 3% for high-risk but an outstanding rate of 100% for low-risk; recall (sensitivity) score is 70% for high-risk and 87% for low-risk.
+*  Balanced Random Forest Classifier:  accuracy score is 78.9%; precision score is a dismal 3% for high-risk but an outstanding rate of 100% for low-risk; recall score is 70% for high-risk and 87% for low-risk.
 
 ![RandomForest_BalancedAccuracyScore](https://raw.githubusercontent.com/JBro-Birds/Credit_Risk_Analysis/master/support_readme_images/RandomForest_BalancedAccuracyScore.png)
 ![RandomForest_ImbalancedClassReport](https://raw.githubusercontent.com/JBro-Birds/Credit_Risk_Analysis/master/support_readme_images/RandomForest_ImbalancedClassReport.png)
 
-*  Easy Ensemble AdaBoost Classifier:  accuracy score is on higher side at 93.2%; precision score is a dismal 9% for high-risk but an outstanding rate of 100% for low-risk; recall (sensitivity) score is 92% for high-risk and 94% for low-risk.
+*  Easy Ensemble AdaBoost Classifier:  accuracy score is on higher side at 93.2%; precision score is a dismal 9% for high-risk but an outstanding rate of 100% for low-risk; recall score is 92% for high-risk and 94% for low-risk.
 
 ![EasyEnsemble_BalancedAccuracyScore](https://raw.githubusercontent.com/JBro-Birds/Credit_Risk_Analysis/master/support_readme_images/EasyEnsemble_BalancedAccuracyScore.png)
 ![EasyEnsemble_ImbalancedClassReport](https://raw.githubusercontent.com/JBro-Birds/Credit_Risk_Analysis/master/support_readme_images/EasyEnsemble_ImbalancedClassReport.png)
 
 ## Summary
-
+Comparing the results of all six models shows that there are some major differences in prediction accuracy and metrics.  I recommend using the Easy Ensemble AdaBoost Classifier for a couple of reasons.  First, the balanced accuracy is 93% which is much higher that the other models.  Second, the recall score is 92% for loan applicants identifed as high-risk.  This too is much higher than the other models.  This recall (sensitivity) metric is important in predicting credit risk because  
 
  
