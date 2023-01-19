@@ -12,7 +12,13 @@ Jill has requested I perform a deep dive into the resampling aspect of machine l
 
 ![p_value_r_squared](https://raw.githubusercontent.com/JBro-Birds/MechaCar_Statistical_Analysis/master/support_images_read.me/p_value_r_squared.png)
 
-*  Which 
+*  SMOTE Oversampling
+*  Naive Random Oversampling
+*  Undersampling
+*  Combination Sampling
+*  Balanced Random Forest Classifier
+*  Easy Ensemble AdaBoost Classifier
+
 
 ## Summary
 
