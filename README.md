@@ -13,12 +13,26 @@ Jill has requested I perform a deep dive into the resampling aspect of machine l
 *  Naive Random Oversampling
 ![NR_BalancedAccuracyScore](https://raw.githubusercontent.com/JBro-Birds/Credit_Risk_Analysis/master/support_readme_images/NR_BalancedAccuracyScore.png)
 ![NR_ImbalancedClassReport](https://raw.githubusercontent.com/JBro-Birds/Credit_Risk_Analysis/master/support_readme_images/NR_ImbalancedClassReport.png)
-*  SMOTE Oversampling
-*  Undersampling
-*  Combination (Over and Under) Sampling
-*  Balanced Random Forest Classifier
-*  Easy Ensemble AdaBoost Classifier
 
+*  SMOTE Oversampling
+![Smote_BalancedAccuracyScore](https://raw.githubusercontent.com/JBro-Birds/Credit_Risk_Analysis/master/support_readme_images/Smote_BalancedAccuracyScore.png)
+![Smote_ImbalancedClassReport](https://raw.githubusercontent.com/JBro-Birds/Credit_Risk_Analysis/master/support_readme_images/Smote_ImbalancedClassReport.png)
+
+*  Undersampling
+![Undersampling_BalancedAccuracyScore](https://raw.githubusercontent.com/JBro-Birds/Credit_Risk_Analysis/master/support_readme_images/Undersampling_BalancedAccuracyScore.png)
+![Undersampling_ImbalancedClassReport](https://raw.githubusercontent.com/JBro-Birds/Credit_Risk_Analysis/master/support_readme_images/Undersampling_ImbalancedClassReport.png)
+
+*  Combination (Over and Under) Sampling
+![Combo_BalancedAccuracyScore](https://raw.githubusercontent.com/JBro-Birds/Credit_Risk_Analysis/master/support_readme_images/Combo_BalancedAccuracyScore.png)
+![Combo_ImbalancedClassReport](https://raw.githubusercontent.com/JBro-Birds/Credit_Risk_Analysis/master/support_readme_images/Combo_ImbalancedClassReport.png)
+
+*  Balanced Random Forest Classifier
+![RandomForest_BalancedAccuracyScore](https://raw.githubusercontent.com/JBro-Birds/Credit_Risk_Analysis/master/support_readme_images/RandomForest_BalancedAccuracyScore.png)
+![RandomForest_ImbalancedClassReport](https://raw.githubusercontent.com/JBro-Birds/Credit_Risk_Analysis/master/support_readme_images/RandomForest_ImbalancedClassReport.png)
+
+*  Easy Ensemble AdaBoost Classifier
+![EasyEnsemble_BalancedAccuracyScore](https://raw.githubusercontent.com/JBro-Birds/Credit_Risk_Analysis/master/support_readme_images/EasyEnsemble_BalancedAccuracyScore.png)
+![EasyEnsemble_ImbalancedClassReport](https://raw.githubusercontent.com/JBro-Birds/Credit_Risk_Analysis/master/support_readme_images/EasyEnsemble_ImbalancedClassReport.png)
 
 ## Summary
 
